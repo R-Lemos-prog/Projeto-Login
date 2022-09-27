@@ -44,7 +44,7 @@
     section#login{
         width: 80vw;
         height: 410px;
-        transform: translateY(-5%);
+        transform: translate(-50%, -50%);
     }
 
     section#login > div#imagem{
