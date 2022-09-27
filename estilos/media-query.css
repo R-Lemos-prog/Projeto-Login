@@ -12,6 +12,7 @@
     
     section#login{
         width: 80vw;
+        height: 375px;
     }
 
     section#login > div#imagem{
@@ -27,7 +28,7 @@
 
     section#login div#formulario h1{
         font-size: 3.1em;
-        color: #809171;
+        color: #96666c;
     }
 
     div#formulario > p{
@@ -47,6 +48,7 @@
     section#login{
         width: 950px;
         background-color: rgba(222, 151, 161, 0.965);
+        height: 470px;
     }
     section#login > div#imagem{
         float: left;
@@ -62,9 +64,13 @@
 
     section#login div#formulario h1{
         font-size: 4em;
+        text-shadow: 0px 0px 5px #96666c;
     }
 
     div#formulario > p{
         font-size: 1.15em;
+    }
+    div.campo > input{
+        transform: translateY(-12px);
     }
 }   
